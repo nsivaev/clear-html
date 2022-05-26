@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <script>
+      let login = prompt('what is ur name?');
+      if (login === null){
+        alert ('cancelled');
+      }else if (login == 'admin'){
+        let pass = prompt('password?');
+        if (pass === null){
+          alert ('cancelled');
+        }else if (pass == 'pass'){
+          alert ('welcome!');
+        }else{
+          alert ('wrong pass');
+        }
+      }else{
+        alert ('wrong login');
+      }
+    </script>
+  </body>
+</html>
